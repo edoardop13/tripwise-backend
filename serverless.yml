@@ -1,0 +1,25 @@
+org: 'edo13'
+app: 'tripwise'
+service: 'tripwise'
+frameworkVersion: '4'
+package:
+  include:
+    - shared/**
+  exclude:
+    - node_modules/**
+    - .vscode/**
+provider:
+  name: aws
+  runtime: python3.12
+  stage: '${opt:stage, "dev"}'
+  region: 'eu-central-1'
+  architecture: arm64
+functions:
+  search:
+    timeout: 29
+    image:
+      uri: 485490763350.dkr.ecr.eu-central-1.amazonaws.com/serverless-tripwise-dev:latest
+    events:
+      - httpApi:
+          path: /search
+          method: get
