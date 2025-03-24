@@ -1,0 +1,592 @@
+{
+    "trip_summary": {
+        "total_days": 2,
+        "estimated_cost_per_person": {
+            "activities": 30.0,
+            "meals": 55.0,
+            "transport": 5.5
+        }
+    },
+    "days": [
+        {
+            "day_number": 1,
+            "theme": "Historical Center",
+            "activities": [
+                {
+                    "type": "landmark",
+                    "name": "Brandenburg Gate",
+                    "description": "Iconic symbol of Berlin and German reunification",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 52.516272,
+                        "lng": 13.377704
+                    },
+                    "pro_tip": "Visit early morning or late evening to avoid large crowds",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "5min"
+                            },
+                            "cost": "€10",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Costly but time-saving",
+                                "recommendation_score": "6/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "Reichstag Building",
+                    "description": "German Parliament building with a glass dome offering panoramic views",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "10:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 52.518943,
+                        "lng": 13.376167
+                    },
+                    "pro_tip": "Book a free visit in advance to avoid long queues",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "bus",
+                            "details": {
+                                "line": "100",
+                                "stops": "1 stop",
+                                "time": "5min"
+                            },
+                            "cost": "€2.80",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor time saving, added cost",
+                                "recommendation_score": "4/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "historical_site",
+                    "name": "Memorial to the Murdered Jews of Europe",
+                    "description": "Poignant and moving memorial to the victims of the Holocaust",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.510784,
+                        "lng": 13.398777
+                    },
+                    "pro_tip": "Take time for quiet reflection",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "tram",
+                            "details": {
+                                "line": "M4",
+                                "stops": "3 stops",
+                                "time": "10min"
+                            },
+                            "cost": "€1.70",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Time saving with low cost",
+                                "recommendation_score": "8/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "park",
+                    "name": "Tiergarten",
+                    "description": "Large park in the center of Berlin, perfect for a relaxing stroll",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.513099,
+                        "lng": 13.372806
+                    },
+                    "pro_tip": "Rent a boat on the lake for a unique experience",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "bike",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "7min"
+                            },
+                            "cost": "€5",
+                            "convenience_analysis": {
+                                "time_saved": "8min",
+                                "cost_vs_benefit": "Small time saving with added cost",
+                                "recommendation_score": "5/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "Museum Island",
+                    "description": "Group of five museums showcasing world-class art and cultural artifacts",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "14:30",
+                        "duration_min": 120,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 52.520007,
+                        "lng": 13.404954
+                    },
+                    "pro_tip": "Choose one or two museums to avoid rushing",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "ferry",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "5min"
+                            },
+                            "cost": "€4",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor time saving with additional cost",
+                                "recommendation_score": "4/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "shopping",
+                    "name": "Unter den Linden",
+                    "description": "Famous boulevard with high-end shops and historical buildings",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "16:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.5181,
+                        "lng": 13.4025
+                    },
+                    "pro_tip": "Visit on a weekday for a more relaxed atmosphere",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "bus",
+                            "details": {
+                                "line": "200",
+                                "stops": "1 stop",
+                                "time": "5min"
+                            },
+                            "cost": "€2.80",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor time saving with additional cost",
+                                "recommendation_score": "4/10"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Zur letzten Instanz",
+                    "cuisine": "Traditional German",
+                    "cost_pp": 30.0,
+                    "time_window": {
+                        "recommended_start": "12:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Waisenstraße 14, 10178 Berlin",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Make reservations in advance"
+                },
+                {
+                    "name": "Augustiner am Gendarmenmarkt",
+                    "cuisine": "German and international",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "19:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "address": "Charlottenstraße 55, 10117 Berlin",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Enjoy the lively atmosphere"
+                }
+            ]
+        },
+        {
+            "day_number": 2,
+            "theme": "East Berlin Exploration",
+            "activities": [
+                {
+                    "type": "historical_site",
+                    "name": "East Side Gallery",
+                    "description": "Longest remaining section of the Berlin Wall, now an open-air art gallery",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.496135,
+                        "lng": 13.471034
+                    },
+                    "pro_tip": "Visit on a weekday to avoid large groups of tourists",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "S-Bahn",
+                            "details": {
+                                "line": "S-Bahn S-9",
+                                "stops": "2 stops",
+                                "time": "15min"
+                            },
+                            "cost": "€2.80",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor time saving with added cost",
+                                "recommendation_score": "4/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "DDR Museum",
+                    "description": "Interactive museum that explores life in East Germany",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "10:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.514258,
+                        "lng": 13.408206
+                    },
+                    "pro_tip": "Plan to spend at least two hours to experience everything",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "tram",
+                            "details": {
+                                "line": "M10",
+                                "stops": "1 stop",
+                                "time": "5min"
+                            },
+                            "cost": "€1.70",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Small time saving with added cost",
+                                "recommendation_score": "5/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "landmark",
+                    "name": "Reichstag Dome",
+                    "description": "Glass dome offering 360 views of Berlin",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 52.518943,
+                        "lng": 13.376167
+                    },
+                    "pro_tip": "Book your free tickets well in advance",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "8min"
+                            },
+                            "cost": "€12",
+                            "convenience_analysis": {
+                                "time_saved": "7min",
+                                "cost_vs_benefit": "Costly but time-saving",
+                                "recommendation_score": "6/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "park",
+                    "name": "Treptower Park",
+                    "description": "Large park with Soviet War Memorial and beautiful scenery",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "12:30",
+                        "duration_min": 120,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {
+                        "lat": 52.457101,
+                        "lng": 13.512122
+                    },
+                    "pro_tip": "Rent a bike to explore the park more easily",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "public transport",
+                            "details": {
+                                "line": "S-Bahn S8",
+                                "stops": "3 stops",
+                                "time": "15min"
+                            },
+                            "cost": "€2.80"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€20",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Costly but time saving",
+                                "recommendation_score": "6/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "art",
+                    "name": "Street Art in Friedrichshain",
+                    "description": "Explore the vibrant street art scene in this alternative district",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "14:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {
+                        "lat": 52.5116,
+                        "lng": 13.4462
+                    },
+                    "pro_tip": "Take a guided street art tour for a deeper understanding",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "public transport",
+                            "details": {
+                                "line": "U-Bahn U5",
+                                "stops": "2 stops",
+                                "time": "12min"
+                            },
+                            "cost": "€1.70"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "8min"
+                            },
+                            "cost": "€15",
+                            "convenience_analysis": {
+                                "time_saved": "4min",
+                                "cost_vs_benefit": "Costly but time saving",
+                                "recommendation_score": "5/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "local_life",
+                    "name": "Simon-Dach-Straße",
+                    "description": "Bustling street known for its bars, pubs and nightlife",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "16:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 52.5036,
+                        "lng": 13.4406
+                    },
+                    "pro_tip": "Visit on a weekend evening to experience the nightlife",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "tram",
+                            "details": {
+                                "line": "M10",
+                                "stops": "2 stops",
+                                "time": "10min"
+                            },
+                            "cost": "€1.70",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Time saving with low cost",
+                                "recommendation_score": "7/10"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Cocolo Ramen",
+                    "cuisine": "Japanese",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Reichenberger Str. 112, 10997 Berlin",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Try the spicy ramen"
+                },
+                {
+                    "name": "Shiso Burger",
+                    "cuisine": "Japanese fusion",
+                    "cost_pp": 20.0,
+                    "time_window": {
+                        "recommended_start": "18:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Skalitzer Str. 36, 10997 Berlin",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Order the burger with a side of edamame"
+                }
+            ]
+        }
+    ]
+}

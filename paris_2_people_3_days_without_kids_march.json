@@ -1,0 +1,503 @@
+
+{
+    "trip_summary": {
+        "total_days": 3,
+        "estimated_cost_per_person": {
+            "activities": 70.0,
+            "meals": 150.0,
+            "transport": 10.0
+        }
+    },
+    "days": [
+        {
+            "day_number": 1,
+            "theme": "Iconic Paris",
+            "activities": [
+                {
+                    "type": "landmark",
+                    "name": "Eiffel Tower",
+                    "description": "Ascend the Eiffel Tower for breathtaking panoramic views of Paris.",
+                    "cost_pp": 26.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8584,
+                        "lng": 2.2945
+                    },
+                    "pro_tip": "Pre-book tickets online to skip the long queues. Visit early in the morning or late in the afternoon for fewer crowds.",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "30min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€15",
+                            "convenience_analysis": {
+                                "time_saved": "20min",
+                                "cost_vs_benefit": "Faster, but more expensive",
+                                "recommendation_score": "6/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "Louvre Museum",
+                    "description": "Explore masterpieces of art and history at the world-famous Louvre Museum.",
+                    "cost_pp": 17.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 180,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8606,
+                        "lng": 2.3376
+                    },
+                    "pro_tip": "Pre-book your tickets and focus on specific sections to manage time effectively. Consider a guided tour to maximize your experience.",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "metro",
+                            "details": {
+                                "line": "1",
+                                "stops": "2",
+                                "time": "8min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "12min",
+                                "cost_vs_benefit": "Slightly faster and cheaper",
+                                "recommendation_score": "7/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "park",
+                    "name": "Tuileries Garden",
+                    "description": "Enjoy a relaxing stroll through the beautiful Tuileries Garden.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "15:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 48.8647,
+                        "lng": 2.3229
+                    },
+                    "pro_tip": "Have a picnic or simply relax and people-watch.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "bus",
+                            "details": {
+                                "line": "72",
+                                "stops": "2",
+                                "time": "10min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor time saving, similar cost",
+                                "recommendation_score": "5/10"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Le Bouillon Chartier",
+                    "cuisine": "Traditional French bistro",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "7 Rue du Faubourg Montmartre, 75009 Paris",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Go early to avoid long queues."
+                },
+                {
+                    "name": "Les Ombres",
+                    "cuisine": "Modern French cuisine with Eiffel Tower views",
+                    "cost_pp": 60.0,
+                    "time_window": {
+                        "recommended_start": "19:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "address": "27 Quai Branly, 75007 Paris",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Make reservations well in advance."
+                }
+            ]
+        },
+        {
+            "day_number": 2,
+            "theme": "Montmartre & Canal Saint-Martin",
+            "activities": [
+                {
+                    "type": "landmark",
+                    "name": "Sacré-Cœur Basilica",
+                    "description": "Visit the stunning Sacré-Cœur Basilica in Montmartre.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8869,
+                        "lng": 2.343
+                    },
+                    "pro_tip": "Arrive early to avoid crowds and enjoy the sunrise over Paris.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "metro",
+                            "details": {
+                                "line": "2",
+                                "stops": "1",
+                                "time": "5min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "15min",
+                                "cost_vs_benefit": "Faster, but cost difference negligible",
+                                "recommendation_score": "7/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "Musée de Montmartre",
+                    "description": "Discover the history of Montmartre at the Musée de Montmartre.",
+                    "cost_pp": 10.0,
+                    "time_window": {
+                        "recommended_start": "10:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 48.8873,
+                        "lng": 2.341
+                    },
+                    "pro_tip": "Check for special exhibitions.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "30min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "bus",
+                            "details": {
+                                "line": "54",
+                                "stops": "3",
+                                "time": "15min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "15min",
+                                "cost_vs_benefit": "Faster and costs the same",
+                                "recommendation_score": "8/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "canal",
+                    "name": "Canal Saint-Martin",
+                    "description": "Enjoy a relaxing walk or boat tour along the Canal Saint-Martin.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "12:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {
+                        "lat": 48.8716,
+                        "lng": 2.3561
+                    },
+                    "pro_tip": "Have a picnic lunch along the canal.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "45min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "metro",
+                            "details": {
+                                "line": "5",
+                                "stops": "2",
+                                "time": "15min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "30min",
+                                "cost_vs_benefit": "Much faster, but requires transport costs",
+                                "recommendation_score": "8/10"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Le Relais de l'Entrecôte",
+                    "cuisine": "Steak-frites",
+                    "cost_pp": 28.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "15 Rue Marbeuf, 75008 Paris",
+                    "dietary": [],
+                    "pro_tip": "This restaurant is known for its simple but delicious steak-frites."
+                },
+                {
+                    "name": "Chez Prune",
+                    "cuisine": "Wine bar with small plates",
+                    "cost_pp": 35.0,
+                    "time_window": {
+                        "recommended_start": "20:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "address": "1 rue Beaurepaire, 75010 Paris",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Enjoy the lively atmosphere."
+                }
+            ]
+        },
+        {
+            "day_number": 3,
+            "theme": "Latin Quarter & Luxurious Shopping",
+            "activities": [
+                {
+                    "type": "landmark",
+                    "name": "Notre Dame Cathedral",
+                    "description": "Visit the iconic Notre Dame Cathedral.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8529,
+                        "lng": 2.3499
+                    },
+                    "pro_tip": "Check for any special masses or events.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "metro",
+                            "details": {
+                                "line": "4",
+                                "stops": "2",
+                                "time": "8min"
+                            },
+                            "cost": "€2.0",
+                            "convenience_analysis": {
+                                "time_saved": "12min",
+                                "cost_vs_benefit": "Faster and cost-efficient",
+                                "recommendation_score": "7/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "museum",
+                    "name": "Musée d'Orsay",
+                    "description": "Explore Impressionist and Post-Impressionist masterpieces.",
+                    "cost_pp": 16.0,
+                    "time_window": {
+                        "recommended_start": "10:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8606,
+                        "lng": 2.3296
+                    },
+                    "pro_tip": "Go early to avoid long queues.",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "30min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "10min"
+                            },
+                            "cost": "€15",
+                            "convenience_analysis": {
+                                "time_saved": "20min",
+                                "cost_vs_benefit": "Faster, but more expensive",
+                                "recommendation_score": "6/10"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "shopping",
+                    "name": "Luxury Shopping on Champs-Élysées",
+                    "description": "Indulge in some luxury shopping on the Champs-Élysées.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "12:30",
+                        "duration_min": 120,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {
+                        "lat": 48.8738,
+                        "lng": 2.3012
+                    },
+                    "pro_tip": "Consider visiting on a weekday to avoid weekend crowds.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "45min"
+                            },
+                            "cost": "€0"
+                        },
+                        "alternative": {
+                            "type": "metro",
+                            "details": {
+                                "line": "1",
+                                "stops": "3",
+                                "time": "15min"
+                            },
+                            "cost": "€2.50",
+                            "convenience_analysis": {
+                                "time_saved": "30min",
+                                "cost_vs_benefit": "Significantly faster, costs more",
+                                "recommendation_score": "8/10"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Breizh Café",
+                    "cuisine": "Crêpes",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "15:00",
+                        "duration_min": 45,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "109 Rue Vieille du Temple, 75003 Paris",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Try the salted caramel crêpe."
+                },
+                {
+                    "name": "Le Train Bleu",
+                    "cuisine": "Grand luxe restaurant at Gare de Lyon",
+                    "cost_pp": 80.0,
+                    "time_window": {
+                        "recommended_start": "20:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "High"
+                    },
+                    "address": "Place Louis-Armand, 75012 Paris",
+                    "dietary": [
+                        "Vegetarian options"
+                    ],
+                    "pro_tip": "Make a reservation well in advance and dress elegantly."
+                }
+            ]
+        }
+    ]
+}
