@@ -12,6 +12,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
 COPY . .
-
-# Set the command to invoke the Lambda function handler
-CMD ["handler.search"]

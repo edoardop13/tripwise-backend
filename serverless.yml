@@ -14,12 +14,81 @@ provider:
   stage: '${opt:stage, "dev"}'
   region: 'eu-central-1'
   architecture: arm64
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - sqs:SendMessage
+        - sqs:ReceiveMessage
+        - sqs:DeleteMessage
+        - sqs:GetQueueUrl
+        - sqs:GetQueueAttributes
+      Resource:
+        Fn::GetAtt: [ TripwiseQueue, Arn ]
+    - Effect: Allow
+      Action:
+        - dynamodb:PutItem
+        - dynamodb:GetItem
+      Resource:
+        Fn::Sub: "arn:aws:dynamodb:${self:provider.region}:${aws:accountId}:table/TripwiseResults"
+
 functions:
-  search:
-    timeout: 29
+  post_search:
     image:
       uri: 485490763350.dkr.ecr.eu-central-1.amazonaws.com/serverless-tripwise-dev:latest
+      command:
+          - post_search.handler
+      entryPoint:
+          - '/lambda-entrypoint.sh'
+    timeout: 10
     events:
       - httpApi:
           path: /search
+          method: post
+
+  processSearch:
+    timeout: 300
+    image:
+      uri: 485490763350.dkr.ecr.eu-central-1.amazonaws.com/serverless-tripwise-dev:latest
+      command:
+          - process_search.handler
+      entryPoint:
+          - '/lambda-entrypoint.sh'
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - TripwiseQueue
+              - Arn
+          batchSize: 1
+
+  get_result:
+    image:
+      uri: 485490763350.dkr.ecr.eu-central-1.amazonaws.com/serverless-tripwise-dev:latest
+      command:
+          - get_result.handler
+      entryPoint:
+          - '/lambda-entrypoint.sh'
+    events:
+      - httpApi:
+          path: /result
           method: get
+
+resources:
+  Resources:
+    TripwiseQueue:
+      Type: AWS::SQS::Queue
+      Properties:
+        QueueName: TripwiseQueue
+        VisibilityTimeout: 310
+
+    TripwiseResults:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: TripwiseResults
+        AttributeDefinitions:
+          - AttributeName: request_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: request_id
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST

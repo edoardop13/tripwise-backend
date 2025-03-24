@@ -1,17 +1,12 @@
-try:
-  import unzip_requirements
-except ImportError:
-  pass
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 ### Activities
 # Transport
 class TransportDetails(BaseModel):
-    line: str
-    stops: str
-    time: str
-    walk_to_station: str
+    line: Optional[str] = None
+    stops: Optional[str] = None
+    time: Optional[str] = None
 class RecommendedTransport(BaseModel):
     type: str
     details: TransportDetails
@@ -51,8 +46,8 @@ class Meal(BaseModel):
     name: str
     cuisine: str
     cost_pp: float
-    time_window: str
-    coordinates: dict = {}
+    time_window: TimeWindow
+    address: str
     dietary: List[str]
     pro_tip: str
 
