@@ -62,7 +62,6 @@ def handler(event, context):
             - Public transport frequency;
             - Announced transport strikes.
             2. Always walk if:
-            - Use A* star routing algorithm for activity sequence;
             - Distance < 18-20min walking time;
             - No dangerous intersections;
             - Path has high walkability score (>4/5);
@@ -79,86 +78,11 @@ def handler(event, context):
             - Suggest the best times to visit certain attractions to avoid crowds or take advantage of special events.
 
             IMPORTANT:
-            1. Only use the following JSON structure. No extra fields allowed.
+            1. Only use the response_model JSON structure. No extra fields allowed.
             2. Any field that cannot be determined should be omitted (not null).
             3. All string fields must be valid, non-empty strings. No 'None' or 'null'.
             4. The day should be fully covered from morning (starting around 8:00–9:00) to evening (finishing around 19:00–20:00);
             5. Provide at least 6 total activities per day (including morning, afternoon, and late-afternoon segments).
-
-            Return valid JSON only, matching this structure strictly:
-            {{
-                "trip_summary": {{
-                    "total_days": {days},
-                    "estimated_cost_per_person": {{
-                        "activities": "€X",
-                        "meals": "€Y",
-                        "transport": "€Z"
-                    }}
-                }},
-                "days": [
-                    {{
-                        "day_number": 1,
-                        "theme": "Historic Center & Modern Art",
-                        "activities": [
-                            {{
-                                "type": "landmark",
-                                "name": "Duomo Cathedral",
-                                "description": "Gothic masterpiece with rooftop terraces",
-                                "cost_€pp": 15.80,
-                                "time_window": {{
-                                    "recommended_start": "09:00",
-                                    "duration_min": 120,
-                                    "crowd_forecast": "High"
-                                }},
-                                "coordinates": {{ "lat": 45.4642, "lng": 9.1900 }},
-                                "pro_tip": "Enter from north side for shorter queues",
-                                "need_booking": true,
-                                "next_transport": {{
-                                    "recommended": {{
-                                        "type": "walk",
-                                        "details": {{
-                                            "line": "",
-                                            "stops": "",
-                                            "time": "6min"
-                                        }},
-                                        "cost": "€0"
-                                    }},
-                                    "alternative": {{
-                                        "type": "metro",
-                                        "details": {{
-                                            "line": "M1",
-                                            "stops": "2 stations",
-                                            "time": "6min"
-                                        }},
-                                        "cost": "€2.10",
-                                        "convenience_analysis": {{
-                                            "time_saved": "0min (including station access)",
-                                            "cost_vs_benefit": "Not recommended - same effective time",
-                                            "recommendation_score": "2/10"
-                                        }}
-                                    }}
-                                }}
-                            }},
-                        ],
-                        "meals": [
-                            {{
-                                "type": "meal",
-                                "name": "Luini Panzerotti",
-                                "cuisine": "Fried dough pockets with various fillings",
-                                "cost_€pp": 5.00,
-                                "time_window": "time_window": {{
-                                    "recommended_start": "12:30",
-                                    "duration_min": 60,
-                                    "crowd_forecast": "High"
-                                }},
-                                "address": "Via Santa Radegonda, 16, 20121 Milano MI",
-                                "dietary": [ "Vegetarian options" ],
-                                "pro_tip": "Order a mix of sweet and savory panzerotti",
-                            }}
-                        ]
-                    }}
-                ]
-            }}
         """
         
         try:
