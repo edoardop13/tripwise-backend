@@ -1,0 +1,404 @@
+{
+    "trip_summary": {
+        "total_days": 2,
+        "estimated_cost_per_person": {
+            "activities": 40.0,
+            "meals": 50.0,
+            "transport": 10.0
+        }
+    },
+    "days": [
+        {
+            "day_number": 1,
+            "theme": "Historical Padua & Artistic Delights",
+            "activities": [
+                {
+                    "type": "Historical Landmark",
+                    "name": "Prato della Valle",
+                    "description": "One of the largest elliptical squares in Europe, visit the statues of illustrious Paduans and enjoy the atmosphere.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit in the morning for fewer crowds and better light for photos.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "15 min",
+                                "cost_vs_benefit": "High cost, low time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Art and Culture",
+                    "name": "Scrovegni Chapel",
+                    "description": "Giotto's breathtaking frescoes are a must-see. Book your tickets well in advance!",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "10:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Book tickets online to avoid long queues. Go early in the morning.",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "3",
+                                "stops": "5",
+                                "time": "10min"
+                            },
+                            "cost": "2",
+                            "convenience_analysis": {
+                                "time_saved": "5 min",
+                                "cost_vs_benefit": "Low cost, minimal time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Art and Culture",
+                    "name": "Pinacoteca",
+                    "description": "Explore the rich collection of paintings from the 14th-18th centuries.",
+                    "cost_pp": 10.0,
+                    "time_window": {
+                        "recommended_start": "12:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Check for special exhibitions during your visit.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "8",
+                            "convenience_analysis": {
+                                "time_saved": "10 min",
+                                "cost_vs_benefit": "Medium cost, moderate time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Shopping and Local Life",
+                    "name": "Via Roma",
+                    "description": "Wander through this elegant shopping street, filled with boutiques and cafes.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Enjoy an Aperitivo at a cafe along the street.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "1",
+                                "stops": "2",
+                                "time": "15min"
+                            },
+                            "cost": "1.5",
+                            "convenience_analysis": {
+                                "time_saved": "10 min",
+                                "cost_vs_benefit": "Low cost, moderate time saved",
+                                "recommendation_score": "High"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Ristorante Al Santo",
+                    "cuisine": "Traditional Italian",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "address": "Via del Santo, 30",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-Free"
+                    ],
+                    "pro_tip": "Make a reservation, especially during peak season."
+                },
+                {
+                    "name": "Osteria Sottoriva",
+                    "cuisine": "Venetian Cuisine",
+                    "cost_pp": 30.0,
+                    "time_window": {
+                        "recommended_start": "19:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Via Sottoriva, 23",
+                    "dietary": [
+                        "Vegetarian",
+                        "Seafood"
+                    ],
+                    "pro_tip": "Try the local seafood dishes."
+                }
+            ]
+        },
+        {
+            "day_number": 2,
+            "theme": "Botanical Gardens & Hidden Gems",
+            "activities": [
+                {
+                    "type": "Nature and Parks",
+                    "name": "Orto Botanico",
+                    "description": "One of the oldest botanical gardens in the world, explore the diverse plant life and serene atmosphere.",
+                    "cost_pp": 8.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit early in the morning to avoid crowds and enjoy the tranquility.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "5",
+                                "stops": "3",
+                                "time": "15min"
+                            },
+                            "cost": "2",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Low cost, Moderate time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Historical Landmark",
+                    "name": "Basilica di Sant'Antonio",
+                    "description": "A stunning basilica with rich history and architecture. Explore the various chapels and admire the art.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "High"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit during off-peak hours to avoid large crowds.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "15min",
+                                "cost_vs_benefit": "High cost, moderate time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Hidden Gem",
+                    "name": "Eremitani Church",
+                    "description": "Explore the impressive frescoes and peaceful cloisters of this lesser-known church.",
+                    "cost_pp": 5.0,
+                    "time_window": {
+                        "recommended_start": "13:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Check for special events or exhibitions.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "2",
+                                "stops": "4",
+                                "time": "20min"
+                            },
+                            "cost": "2.5",
+                            "convenience_analysis": {
+                                "time_saved": "15min",
+                                "cost_vs_benefit": "Low cost, high time saved",
+                                "recommendation_score": "High"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Shopping and Local Life",
+                    "name": "Mercato di San Michele",
+                    "description": "Immerse yourself in the local atmosphere at this bustling food market.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "15:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit in the morning for the freshest produce.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "8",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Medium cost, moderate time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Trattoria Pontecorvo",
+                    "cuisine": "Traditional Italian",
+                    "cost_pp": 20.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "address": "Via San Francesco, 6",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-Free"
+                    ],
+                    "pro_tip": "Enjoy the outdoor seating in the warmer months."
+                },
+                {
+                    "name": "Locanda Cavalli",
+                    "cuisine": "Modern Italian",
+                    "cost_pp": 35.0,
+                    "time_window": {
+                        "recommended_start": "20:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Piazza Garibaldi, 15",
+                    "dietary": [
+                        "Vegetarian",
+                        "Vegan"
+                    ],
+                    "pro_tip": "Make a reservation to secure a table."
+                }
+            ]
+        }
+    ]
+}
