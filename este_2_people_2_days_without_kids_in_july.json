@@ -1,0 +1,325 @@
+{
+    "trip_summary": {
+        "total_days": 2,
+        "estimated_cost_per_person": {
+            "activities": 50.0,
+            "meals": 50.0,
+            "transport": 10.0
+        }
+    },
+    "days": [
+        {
+            "day_number": 1,
+            "theme": "Historical Este & Charming Local Life",
+            "activities": [
+                {
+                    "type": "Historical Landmark",
+                    "name": "Este Castle",
+                    "description": "Explore the imposing Este Castle, a medieval fortress with rich history and stunning architecture.",
+                    "cost_pp": 10.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit early in the morning to beat the crowds and enjoy a less hectic experience.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "15min",
+                                "cost_vs_benefit": "Expensive but saves time",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Art & Culture",
+                    "name": "Museo Nazionale Atestino",
+                    "description": "Discover the history of Este through artifacts and exhibits at the National Atestine Museum.",
+                    "cost_pp": 8.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Check for any temporary exhibitions that might be of interest.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "1",
+                                "stops": "Piazza Maggiore",
+                                "time": "10min"
+                            },
+                            "cost": "2",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Inexpensive, but not much time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Shopping & Local Life",
+                    "name": "Explore Este's charming streets",
+                    "description": "Wander through the picturesque streets of Este, browsing local shops and soaking up the atmosphere.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Look for local artisan shops selling unique products.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "8",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Considerably expensive",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Ristorante Al Castello",
+                    "cuisine": "Italian",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Via del Castello, 12, 35042 Este PD, Italy",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-free"
+                    ],
+                    "pro_tip": "Make a reservation, especially during peak season."
+                },
+                {
+                    "name": "Osteria al Sole",
+                    "cuisine": "Traditional Italian",
+                    "cost_pp": 20.0,
+                    "time_window": {
+                        "recommended_start": "19:30",
+                        "duration_min": 90,
+                        "crowd_forecast": "Low"
+                    },
+                    "address": "Piazza Maggiore, 1, 35042 Este PD, Italy",
+                    "dietary": [
+                        "Vegetarian Options"
+                    ],
+                    "pro_tip": "Enjoy a relaxed dinner at this local osteria."
+                }
+            ]
+        },
+        {
+            "day_number": 2,
+            "theme": "Nature, Relaxation & Artistic Exploration",
+            "activities": [
+                {
+                    "type": "Nature & Parks",
+                    "name": "Parco Regionale dei Colli Euganei",
+                    "description": "Enjoy a relaxing walk or hike through the stunning scenery of the Euganean Hills Regional Park.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 180,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Pack water and snacks for your hike. Wear comfortable shoes.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Car",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "20min"
+                            },
+                            "cost": "10"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "2",
+                                "stops": "Parco Regionale",
+                                "time": "30min"
+                            },
+                            "cost": "3",
+                            "convenience_analysis": {
+                                "time_saved": "10min",
+                                "cost_vs_benefit": "Slight cost saving, but a significant increase in travel time",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Art & Culture",
+                    "name": "Villa Pisani",
+                    "description": "Visit the stunning Villa Pisani, a beautiful Palladian villa with impressive gardens.",
+                    "cost_pp": 12.0,
+                    "time_window": {
+                        "recommended_start": "12:30",
+                        "duration_min": 120,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Take your time to explore the extensive gardens and admire the architecture.",
+                    "need_booking": true,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Car",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": "15min"
+                            },
+                            "cost": "8"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "15",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "More expensive, but time saved",
+                                "recommendation_score": "Medium"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Relaxation",
+                    "name": "Relax by the pool",
+                    "description": "Relax and unwind by the pool at your hotel or a nearby establishment.",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "15:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Enjoy a refreshing drink and soak up the sun.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "5",
+                            "convenience_analysis": {
+                                "time_saved": "5min",
+                                "cost_vs_benefit": "Minor cost increase",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Trattoria da Enzo",
+                    "cuisine": "Venetian",
+                    "cost_pp": 22.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 45,
+                        "crowd_forecast": "Low"
+                    },
+                    "address": "Via Roma, 5, 35042 Este PD, Italy",
+                    "dietary": [
+                        "Vegetarian Options",
+                        "Seafood"
+                    ],
+                    "pro_tip": "Try the local specialties."
+                },
+                {
+                    "name": "Pizzeria Ristorante Belvedere",
+                    "cuisine": "Pizza",
+                    "cost_pp": 18.0,
+                    "time_window": {
+                        "recommended_start": "19:00",
+                        "duration_min": 75,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Vicolo San Francesco, 12, 35042 Este PD, Italy",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-free"
+                    ],
+                    "pro_tip": "Call ahead to check the pizza options."
+                }
+            ]
+        }
+    ]
+}
