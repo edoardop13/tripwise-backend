@@ -1,0 +1,324 @@
+{
+    "trip_summary": {
+        "total_days": 2,
+        "estimated_cost_per_person": {
+            "activities": 30.0,
+            "meals": 50.0,
+            "transport": 10.0
+        }
+    },
+    "days": [
+        {
+            "day_number": 1,
+            "theme": "Historical Arqua",
+            "activities": [
+                {
+                    "type": "Historical Landmark",
+                    "name": "Petrarca's House",
+                    "description": "Visit the birthplace and final residence of the renowned poet Francesco Petrarca.",
+                    "cost_pp": 5.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Arrive early to avoid larger groups and to get the most out of your visit.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "5 minutes",
+                                "cost_vs_benefit": "High cost for minimal time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Art and Culture",
+                    "name": "Museo Nazionale di Francesco Petrarca",
+                    "description": "Explore exhibits related to Petrarca's life, works, and the historical context of his time.",
+                    "cost_pp": 5.0,
+                    "time_window": {
+                        "recommended_start": "10:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Check for any temporary exhibits or special events that might be of interest.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "5 minutes",
+                                "cost_vs_benefit": "High cost for minimal time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Nature and Parks",
+                    "name": "Walk through Arqua Petrarca",
+                    "description": "Enjoy a scenic stroll through the charming streets of Arqua Petrarca, taking in its picturesque setting.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "11:30",
+                        "duration_min": 60,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Take your time to explore hidden alleys and discover local artisan shops.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "5 minutes",
+                                "cost_vs_benefit": "High cost for minimal time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Ristorante Al Petrarca",
+                    "cuisine": "Italian",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "13:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Via Petrarca, 2, 35030 Arqua Petrarca PD, Italy",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-Free"
+                    ],
+                    "pro_tip": "Make a reservation in advance, especially during peak season."
+                },
+                {
+                    "name": "Trattoria Da Giovanni",
+                    "cuisine": "Traditional Italian",
+                    "cost_pp": 25.0,
+                    "time_window": {
+                        "recommended_start": "20:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Via Roma, 12, 35030 Arqua Petrarca PD, Italy",
+                    "dietary": [
+                        "Vegetarian Options"
+                    ],
+                    "pro_tip": "Enjoy a relaxing dinner with views of the surrounding hills."
+                }
+            ]
+        },
+        {
+            "day_number": 2,
+            "theme": "Euganean Hills Exploration",
+            "activities": [
+                {
+                    "type": "Nature and Parks",
+                    "name": "Hike in the Euganean Hills",
+                    "description": "Discover the stunning landscapes of the Euganean Regional Park, offering breathtaking views and various trails.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "09:00",
+                        "duration_min": 120,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Pack water and wear comfortable hiking shoes.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Car",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "20"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "E1",
+                                "stops": "multiple",
+                                "time": "30 minutes"
+                            },
+                            "cost": "5",
+                            "convenience_analysis": {
+                                "time_saved": "20 minutes",
+                                "cost_vs_benefit": "High convenience",
+                                "recommendation_score": "High"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Shopping and Local Life",
+                    "name": "Explore Local Markets",
+                    "description": "Immerse yourself in the local culture by exploring the vibrant markets, where you can find unique souvenirs and artisan crafts.",
+                    "cost_pp": 0.0,
+                    "time_window": {
+                        "recommended_start": "11:00",
+                        "duration_min": 60,
+                        "crowd_forecast": "Medium"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Visit on market days (check local listings) for the best selection.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Walk",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "0"
+                        },
+                        "alternative": {
+                            "type": "Taxi",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "10",
+                            "convenience_analysis": {
+                                "time_saved": "10 minutes",
+                                "cost_vs_benefit": "High cost for minimal time saved",
+                                "recommendation_score": "Low"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Historical Landmark",
+                    "name": "Abbazia di Praglia",
+                    "description": "Explore the ancient and serene Abbey of Praglia, a historical site with captivating architecture and history.",
+                    "cost_pp": 5.0,
+                    "time_window": {
+                        "recommended_start": "12:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Low"
+                    },
+                    "coordinates": {},
+                    "pro_tip": "Check the opening hours in advance and consider a guided tour.",
+                    "need_booking": false,
+                    "next_transport": {
+                        "recommended": {
+                            "type": "Car",
+                            "details": {
+                                "line": null,
+                                "stops": null,
+                                "time": null
+                            },
+                            "cost": "20"
+                        },
+                        "alternative": {
+                            "type": "Bus",
+                            "details": {
+                                "line": "E1",
+                                "stops": "multiple",
+                                "time": "30 minutes"
+                            },
+                            "cost": "5",
+                            "convenience_analysis": {
+                                "time_saved": "15 minutes",
+                                "cost_vs_benefit": "High convenience",
+                                "recommendation_score": "High"
+                            }
+                        }
+                    }
+                }
+            ],
+            "meals": [
+                {
+                    "name": "Caffè al Parco",
+                    "cuisine": "Italian",
+                    "cost_pp": 15.0,
+                    "time_window": {
+                        "recommended_start": "14:00",
+                        "duration_min": 45,
+                        "crowd_forecast": "Low"
+                    },
+                    "address": "Piazza del Mercato, 10, 35030 Arqua Petrarca PD, Italy",
+                    "dietary": [
+                        "Vegetarian Options"
+                    ],
+                    "pro_tip": "Enjoy a quick lunch at a local café with delicious pastries and coffee."
+                },
+                {
+                    "name": "Osteria Ai Colli Euganei",
+                    "cuisine": "Regional Italian",
+                    "cost_pp": 30.0,
+                    "time_window": {
+                        "recommended_start": "20:00",
+                        "duration_min": 90,
+                        "crowd_forecast": "Medium"
+                    },
+                    "address": "Via Roma, 15, 35030 Arqua Petrarca PD, Italy",
+                    "dietary": [
+                        "Vegetarian",
+                        "Gluten-Free"
+                    ],
+                    "pro_tip": "This osteria is known for its regional specialties."
+                }
+            ]
+        }
+    ]
+}
